@@ -1,4 +1,4 @@
-package com.Mail_app.Mail.Config;
+epackage com.Mail_app.Mail.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,8 +17,8 @@ public class EmailConfig {
         mailSender.setPort(587);
 
         // Set your Gmail credentials
-        mailSender.setUsername("dhruvbharne06@gmail.com");
-        mailSender.setPassword("kxdo wzgd xydx kvnj");
+        mailSender.setUsername("example.com");
+        mailSender.setPassword("password");
 
         // Additional mail properties
         Properties props = mailSender.getJavaMailProperties();
